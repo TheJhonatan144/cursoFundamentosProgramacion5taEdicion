@@ -19,6 +19,12 @@ Enunciado:
 
 using namespace std;
 
+// PROTOTIPOS DE FUNCIONES
+void leerCuatroNumero(int &a, int &b, int &c, int &d);
+int calcularSuma(int a, int b, int c, int d);
+double calcularPromedio(int suma);
+void mostrarResultados(int suma, double promedio);
+
 int main()
 {
     // Variables donde se guardaran los numeros
