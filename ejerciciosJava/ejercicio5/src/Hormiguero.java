@@ -17,7 +17,7 @@ public class Hormiguero {
     }
 
     // Metodo para agregar una larva
-    public void agregarlarva(int id) {
+    public void agregarLarva(int id) {
         listaHormigas.add(new Larva(id));
         System.out.println("Larva agregada correctamente");
     }
